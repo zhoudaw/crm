@@ -1,0 +1,23 @@
+#app {
+  .app-wrapper {}
+
+  .main-container {
+    min-height: 100%;
+    margin-left: 240px;
+    position: relative;
+    padding-top: 80px;
+  }
+
+  .sidebar-container {
+    width: 240px;
+    height: 100%;
+    position: fixed;
+    font-size: 0px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1001;
+    overflow: hidden;
+    background: red;
+  }
+}
